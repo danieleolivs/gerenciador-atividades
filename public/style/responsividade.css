@@ -1,0 +1,49 @@
+@media(max-width:500px){
+    #adiciona_respostas{
+        width: 9rem;
+        height: 1.5rem;
+    }
+    
+    #adiciona_botao{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #atividades{
+        margin-top:6rem;
+        height:8rem;
+    }
+    
+    #tarefas{
+        width:12rem;
+        height: 1.5rem;
+        margin-top:.8rem;
+        margin-bottom:.8rem;
+    
+    }
+}
+
+@media(min-width:501px){
+    #adiciona_respostas{
+        width: 18rem;
+        height: 3rem;
+    }
+    
+    #adiciona_botao{
+        width: 5rem;
+        height: 3rem;
+    }
+
+    #atividades{
+        margin-top:6rem;
+        height:8rem;
+    }
+    
+    #tarefas{
+        width:23rem;
+        height: 3rem;
+        margin-top:.8rem;
+        margin-bottom:.8rem;
+    
+    }
+}

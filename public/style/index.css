@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    text-decoration: none;
+    box-sizing:border-box;
+
+    --fundo: #4F5563;
+    --letra:#413E47;
+    --box: #F7EBFF;
+
+}
+
+body{
+    background-color: var(--fundo);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -25%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#adiciona_respostas{
+    width: 25rem;
+    height: 3rem;
+    border-radius: .5rem 0 0 .5rem;
+    border:0;
+    padding:1rem
+}
+
+#adiciona_botao{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 0 .5rem .5rem 0;
+    border:0;
+    cursor:pointer
+}
+
+#adiciona_botao:hover{
+    filter: brightness(1.2);
+    margin-left:0
+}
+
+#atividades{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    margin-top:6rem;
+    height:8rem;
+}
+
+#tarefas{
+    width:30rem;
+    height: 2rem;
+    border-radius: .5rem;
+    background: var(--box);
+    padding: 1.3rem;
+    margin-top:.8rem;
+    margin-bottom:.8rem;
+    display:flex;
+    align-items:center;
+
+}
+
+#tarefas p{
+    margin-left:0.5rem
+}
+
+input:checked{
+    background-color:green
+}
+
